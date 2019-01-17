@@ -44,7 +44,7 @@ def count_genders():
 
 
 if __name__== "__main__":
-  count_genders()
+  print count_genders()
 
 
 
