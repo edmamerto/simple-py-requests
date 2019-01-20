@@ -21,12 +21,12 @@ Returns:
 string: 'male' or 'female'
 
 """
-    r = requests.get(
+    response_data = requests.get(
         'https://api.namsor.com/onomastics/api/json/gender/' +
         name[0] +
         '/' +
         name[1])
-    obj = json.loads(r.text)
+    obj = json.loads(response_data.text)
 
     return obj['gender']
 
@@ -38,8 +38,8 @@ counts how many users are male and female
 Returns:
 string: gender stats
 """
-    r = requests.get('https://jsonplaceholder.typicode.com/users')
-    users = json.loads(r.text)
+    response_data = requests.get('https://jsonplaceholder.typicode.com/users')
+    users = json.loads(response_data.text)
 
     for user in users:
         # split name on white space to save first and last name in an array
