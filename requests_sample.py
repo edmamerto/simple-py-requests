@@ -1,8 +1,8 @@
 """
 @author Ed Mamerto
 """
-import requests
 import json
+import requests
 
 GENDER_STATS = {
     'male': 0,
