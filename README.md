@@ -16,7 +16,7 @@ check it out   >>> [requests_sample.py](https://github.com/edmamerto/simple-py-r
 Python `2` was used for this project
 ```sh
 $ pip install virtualenv
-$ cd projdir
+$ cd path/to/proj
 $ virtualenv venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
