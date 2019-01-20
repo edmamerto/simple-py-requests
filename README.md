@@ -35,3 +35,6 @@ Example Output
 ```sh
 there are 3 males and 7 females
 ```
+
+## License
+Copyright © Ed Mamerto.
