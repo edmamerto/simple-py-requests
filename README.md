@@ -1,6 +1,6 @@
 # Count how many users are male or female 
 [![Build Status](https://travis-ci.com/edmamerto/simple-py-requests.svg?branch=master)](https://travis-ci.com/edmamerto/simple-py-requests)
-> This projects demonstrates how to call an api and do simple aggregation
+> This projects demonstrates how to call an API and do simple aggregation
 
 In this project you will:
 
